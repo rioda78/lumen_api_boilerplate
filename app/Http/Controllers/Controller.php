@@ -80,7 +80,7 @@ class Controller extends BaseController
      *                     ),
      *                     @OA\Property(
      *                         property="expires_in",
-     *                         type="integer",
+     *                         type="array",
      *                         description="Token expiration in miliseconds",
      *                         @OA\Items
      *                     ),
